@@ -16,6 +16,7 @@ def get_weather(city):
     humidity = data["main"]["humidity"]
 
 
+
     # format and print the weather information
     print("Weather in {}:".format(city))
     print(" - Condition: {}".format(weather))
